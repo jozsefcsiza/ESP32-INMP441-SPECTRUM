@@ -2,6 +2,8 @@
 ESP32 INMP441 SPECTRUM WITH BLUETOOTH CONTROL
 WS2812B 16x16 led matrix spectrum analyzer with bluetooth control via Android.
 
+Youtube video by [Scott Marley](https://www.youtube.com/watch?v=9PEjvFkdpIE)
+
 # HARDWARE
 WS2812B led matrix.
 
