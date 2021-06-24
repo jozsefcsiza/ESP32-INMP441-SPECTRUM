@@ -44,7 +44,6 @@
 #include <Preferences.h>
 #include "my_bluetooth.h"
 
-#define EEPROM_SIZE 5
 #define LED_PIN     2
 #define M_WIDTH     16
 #define M_HEIGHT    16
