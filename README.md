@@ -23,4 +23,4 @@ Spectrum analyzer matrix patterns source code is from [Scott Marley](https://git
 
 INMP441 I2S source code is from [WLED sound reactive fork](https://github.com/atuline/WLED)
 
-Bluetoth control arduino and android source code is from me.
+Bluetoth control arduino and android source code by me.
