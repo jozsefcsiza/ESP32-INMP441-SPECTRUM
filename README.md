@@ -18,3 +18,5 @@ Any android devce with bluetooth.
 
 # SOFTWARE
 Spectrum analyzer matrix patterns source code is from [Scott Marley](https://github.com/s-marley/ESP32-INMP441-Matrix-VU)
+INMP441 I2S source code is from [WLED sound reactive fork](https://github.com/atuline/WLED)
+Bluetoth control arduino and android source code is from me.
