@@ -7,21 +7,21 @@ Youtube video by [Scott Marley](https://www.youtube.com/watch?v=9PEjvFkdpIE)
 # HARDWARE
 WS2812B led matrix.
 
-    -> Replace the #define LED_PIN 5 in the ESP32-INMP441-SPECTRUM.ino to your desired led pin.
 INMP441 I2S microphone.
 
-    -> Replace the
-    #define I2S_WS 15   // aka LRCL
-    #define I2S_SD 32   // aka DOUT
-    #define I2S_SCK 14  // aka BCLK
-    in the audio_reactive.h file to your desired pins.
 ESP32 dev board, the exact type doesn't matter.
 
 Any android devce with bluetooth.
 
 # SOFTWARE
 It is a visual studio project and you can easily copy the necessary files to your arduino ide project.
-    -> Replace the #define LED_PIN 5 in the ESP32-INMP441-SPECTRUM.ino to your desired led pin.
+    
+    -> Replace
+    #define LED_PIN 5 in the ESP32-INMP441-SPECTRUM.ino to your desired led pin.
+    -> Replace
+    #define I2S_WS 15   // aka LRCL
+    #define I2S_SD 32   // aka DOUT
+    #define I2S_SCK 14  // aka BCLK    
 
 Spectrum analyzer matrix patterns source code and wiring by [Scott Marley](https://github.com/s-marley/ESP32-INMP441-Matrix-VU)
 
