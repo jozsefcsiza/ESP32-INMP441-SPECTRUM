@@ -14,14 +14,16 @@ ESP32 dev board, the exact type doesn't matter.
 Any android devce with bluetooth.
 
 # SOFTWARE
-It is a visual studio project and you can easily copy the necessary files to your arduino ide project.
+It is a Visual Studio project and you can easily copy the necessary files to your Arduino IDE project.
     
     -> Replace
-    #define LED_PIN 5 in the ESP32-INMP441-SPECTRUM.ino to your desired led pin.
+    #define LED_PIN 5 in the ESP32-INMP441-SPECTRUM.ino to your desired led pin of the matrix.
+
     -> Replace
     #define I2S_WS 15   // aka LRCL
     #define I2S_SD 32   // aka DOUT
-    #define I2S_SCK 14  // aka BCLK    
+    #define I2S_SCK 14  // aka BCLK
+    in the audio_reactive.h file to your desired INMP441 microphone pins
 
 Spectrum analyzer matrix patterns source code and wiring by [Scott Marley](https://github.com/s-marley/ESP32-INMP441-Matrix-VU)
 
