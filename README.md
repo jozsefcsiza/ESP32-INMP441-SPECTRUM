@@ -12,6 +12,9 @@ INMP441 I2S microphone.
     #define I2S_WS 15   // aka LRCL
     #define I2S_SD 32   // aka DOUT
     #define I2S_SCK 14  // aka BCLK
-    in the audio_reactive.h file.
+    in the audio_reactive.h file to your desired pins.
 ESP32 dev board, the exact type doesn't matter.
 Any android devce with bluetooth.
+
+# SOFTWARE
+Spectrum analyzer matrix patterns source code is from [Scott Marley](https://github.com/s-marley/ESP32-INMP441-Matrix-VU)
