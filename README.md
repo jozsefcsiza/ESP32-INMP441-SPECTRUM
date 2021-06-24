@@ -19,6 +19,8 @@ ESP32 dev board, the exact type doesn't matter.
 Any android devce with bluetooth.
 
 # SOFTWARE
+It is a visual studio project and you can easily copy the necessary files to your arduino ide project.
+
 Spectrum analyzer matrix patterns source code and wiring by [Scott Marley](https://github.com/s-marley/ESP32-INMP441-Matrix-VU)
 
 INMP441 I2S source code by [WLED sound reactive fork](https://github.com/atuline/WLED)
