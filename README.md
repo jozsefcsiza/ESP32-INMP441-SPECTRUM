@@ -33,7 +33,7 @@ Bluetooth control Arduino and Android source code by me.
 # BUILD AND RUN
 Wire your ESP32 properly.
 
-Upload the arduino code.
+Upload the arduino code to your ESP32 device.
 
 Install the Spectrum.apk tou your android device.
 
