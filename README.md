@@ -19,8 +19,8 @@ ESP32 dev board, the exact type doesn't matter.
 Any android devce with bluetooth.
 
 # SOFTWARE
-Spectrum analyzer matrix patterns source code is from [Scott Marley](https://github.com/s-marley/ESP32-INMP441-Matrix-VU)
+Spectrum analyzer matrix patterns source code and wiring by [Scott Marley](https://github.com/s-marley/ESP32-INMP441-Matrix-VU)
 
-INMP441 I2S source code is from [WLED sound reactive fork](https://github.com/atuline/WLED)
+INMP441 I2S source code by [WLED sound reactive fork](https://github.com/atuline/WLED)
 
 Bluetoth control arduino and android source code by me.
