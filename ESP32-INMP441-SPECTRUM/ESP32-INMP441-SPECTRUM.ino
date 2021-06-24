@@ -34,7 +34,7 @@
  *
  * REFERENCES
  * Main code            Scott Marley      https://www.youtube.com/c/ScottMarley
- * Bluetooth code       Jozsef Csiza
+ * Bluetooth code       Jozsef Csiza      https://github.com/jozsefcsiza/ESP32-INMP441-SPECTRUM
  * Audio and mic  Andrew Tuline et al     https://github.com/atuline/WLED
  */
 
@@ -114,7 +114,7 @@ void setup() {
     else numBands = 16;
     barWidth = M_WIDTH / numBands;
 
-    preferences.begin(ESP_PREFS, false); //The false argument means that we’ll use it in read/write mode
+    preferences.begin(ESP_PREFS, false); //The false argument means that weâ€™ll use it in read/write mode
     brightness = preferences.getUInt(PREFS_BRIGHTNESS, 2);
     gain = preferences.getUInt(PREFS_GAIN, 30);
     squelch = preferences.getUInt(PREFS_SQUELCH, 0);
@@ -169,7 +169,7 @@ void loop() {
 }
 
 void saveSpectrumPrefs() {
-    preferences.begin(ESP_PREFS, false); //The false argument means that we’ll use it in read/write mode
+    preferences.begin(ESP_PREFS, false); //The false argument means that weâ€™ll use it in read/write mode
     preferences.putUInt(PREFS_BRIGHTNESS, brightness);
     preferences.putUInt(PREFS_GAIN, gain);
     preferences.putUInt(PREFS_SQUELCH, squelch);
