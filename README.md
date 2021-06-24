@@ -26,3 +26,14 @@ Spectrum analyzer matrix patterns source code and wiring by [Scott Marley](https
 INMP441 I2S source code by [WLED sound reactive fork](https://github.com/atuline/WLED)
 
 Bluetooth control arduino and android source code by me.
+
+# BUILD AND RUN
+Wire your ESP32 properly.
+
+Upload the arduino code.
+
+Install the Spectrum.apk tou your android device.
+
+![Spectrum1](https://user-images.githubusercontent.com/61933721/123283635-40e8e880-d514-11eb-9f5c-1d3c8222d49a.jpg)
+![Spectrum2](https://user-images.githubusercontent.com/61933721/123283652-434b4280-d514-11eb-9d7d-b424968e906e.jpg)
+
