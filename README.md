@@ -16,10 +16,13 @@ INMP441 I2S microphone.
     #define I2S_SCK 14  // aka BCLK
     in the audio_reactive.h file to your desired pins.
 ESP32 dev board, the exact type doesn't matter.
+
 Any android devce with bluetooth.
 
 # SOFTWARE
 It is a visual studio project and you can easily copy the necessary files to your arduino ide project.
+
+-> Replace the #define LED_PIN 5 in the ESP32-INMP441-SPECTRUM.ino to your desired led pin.
 
 Spectrum analyzer matrix patterns source code and wiring by [Scott Marley](https://github.com/s-marley/ESP32-INMP441-Matrix-VU)
 
