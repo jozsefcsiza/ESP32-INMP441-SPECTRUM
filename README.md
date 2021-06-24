@@ -7,6 +7,7 @@ WS2812B led matrix.
 
     -> Replace the #define LED_PIN 5 in the ESP32-INMP441-SPECTRUM.ino to your desired led pin.
 INMP441 I2S microphone.
+
     -> Replace the
     #define I2S_WS 15   // aka LRCL
     #define I2S_SD 32   // aka DOUT
