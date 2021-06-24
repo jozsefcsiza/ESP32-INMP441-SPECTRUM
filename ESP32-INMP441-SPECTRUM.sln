@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ESP32-INMP441-SPECTRUM", "ESP32-INMP441-SPECTRUM\ESP32-INMP441-SPECTRUM.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BluetoothSerial-1.0", "..\..\..\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.4\libraries\BluetoothSerial\BluetoothSerial-1.0.vcxitems", "{1A69BD90-4DEB-4022-B0C7-3643E1C4F4F2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "arduinoFFT-1.5.6", "..\..\..\Documents\Arduino\libraries\arduinoFFT\arduinoFFT-1.5.6.vcxitems", "{E07B99CA-BD3D-4AD3-BE19-19A2810319FC}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\..\..\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.4\libraries\BluetoothSerial\BluetoothSerial-1.0.vcxitems*{1a69bd90-4deb-4022-b0c7-3643e1c4f4f2}*SharedItemsImports = 9
+		..\..\..\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.4\libraries\BluetoothSerial\BluetoothSerial-1.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		..\..\..\Documents\Arduino\libraries\arduinoFFT\arduinoFFT-1.5.6.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		..\..\..\Documents\Arduino\libraries\arduinoFFT\arduinoFFT-1.5.6.vcxitems*{e07b99ca-bd3d-4ad3-be19-19a2810319fc}*SharedItemsImports = 9
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26461EC0-13A4-4B41-B05E-4F62D1925500}
+	EndGlobalSection
+EndGlobal
