@@ -21,8 +21,7 @@ Any android devce with bluetooth.
 
 # SOFTWARE
 It is a visual studio project and you can easily copy the necessary files to your arduino ide project.
-
--> Replace the #define LED_PIN 5 in the ESP32-INMP441-SPECTRUM.ino to your desired led pin.
+    -> Replace the #define LED_PIN 5 in the ESP32-INMP441-SPECTRUM.ino to your desired led pin.
 
 Spectrum analyzer matrix patterns source code and wiring by [Scott Marley](https://github.com/s-marley/ESP32-INMP441-Matrix-VU)
 
