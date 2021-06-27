@@ -1,3 +1,5 @@
+![icon](https://user-images.githubusercontent.com/61933721/123552174-983dc180-d77d-11eb-9d72-8daecaa46584.png)
+
 # ESP32-INMP441-SPECTRUM
 ESP32 spectrum analyzer with INMP441 I2S microphone with bluetooth control via any Android device.
 
