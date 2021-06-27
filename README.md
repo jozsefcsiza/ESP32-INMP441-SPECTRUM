@@ -40,9 +40,13 @@ Upload the arduino code to your ESP32 device.
 Install the Spectrum.apk tou your android device.
 
 ![Spectrum2](https://user-images.githubusercontent.com/61933721/123543784-df658b80-d758-11eb-9e7d-9141360e3ed1.png)
+
 SPECTRUM SETTINGS - Accesss the spectrum settings
+
 SELECT BLUETOOTH - Select the esp32 bluetooth, it is saved and you don't have to reselect all the time
+
 ESP32 DEEP SLEEP - Pauses the audio process and sets the led brightness to 0, so only the bluetooth will remain in function and after restarting the android app the spectrum analyzer will be activated automatically.
+
 ![Spectrum1](https://user-images.githubusercontent.com/61933721/123284133-afc64180-d514-11eb-88a6-4419e1215f16.png)
 
 
