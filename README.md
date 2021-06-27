@@ -39,7 +39,7 @@ Upload the arduino code to your ESP32 device.
 
 Install the Spectrum.apk tou your android device.
 
-![Spectrum2](https://user-images.githubusercontent.com/61933721/123284117-ac32ba80-d514-11eb-8535-3f3880f1a3d9.png)
+![Spectrum2](https://user-images.githubusercontent.com/61933721/123543784-df658b80-d758-11eb-9e7d-9141360e3ed1.png)
 ![Spectrum1](https://user-images.githubusercontent.com/61933721/123284133-afc64180-d514-11eb-88a6-4419e1215f16.png)
 
 
