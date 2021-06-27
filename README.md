@@ -1,8 +1,6 @@
 # ESP32-INMP441-SPECTRUM
 ESP32 spectrum analyzer with INMP441 I2S microphone with bluetooth control via any Android device.
 
-Youtube video by [Scott Marley](https://www.youtube.com/watch?v=9PEjvFkdpIE)
-
 # HARDWARE
 WS2812B led matrix.
 
