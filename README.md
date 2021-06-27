@@ -12,6 +12,10 @@ ESP32 dev board, the exact type doesn't matter.
 
 Any android devce with bluetooth.
 
+# WIRING
+![Wiring](https://user-images.githubusercontent.com/61933721/123543411-ef7c6b80-d756-11eb-9c7a-f273d759a34c.png)
+
+
 # SOFTWARE
 It is a Visual Studio project and you can easily copy the necessary files to your Arduino IDE project.
     
@@ -24,7 +28,7 @@ It is a Visual Studio project and you can easily copy the necessary files to you
     #define I2S_SCK 14  // aka BCLK
     in the audio_reactive.h file to your desired INMP441 microphone pins
 
-Spectrum analyzer matrix patterns source code and wiring by [Scott Marley](https://github.com/s-marley/ESP32-INMP441-Matrix-VU)
+Spectrum analyzer matrix patterns source code by [Scott Marley](https://github.com/s-marley/ESP32-INMP441-Matrix-VU)
 
 INMP441 I2S source code by [WLED sound reactive fork](https://github.com/atuline/WLED)
 
