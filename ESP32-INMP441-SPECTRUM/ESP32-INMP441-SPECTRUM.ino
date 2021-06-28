@@ -44,7 +44,7 @@
 #include <Preferences.h>
 #include "my_bluetooth.h"
 
-#define LED_PIN     5
+#define LED_PIN     2
 #define M_WIDTH     16
 #define M_HEIGHT    16
 #define NUM_LEDS    (M_WIDTH * M_HEIGHT)
@@ -113,7 +113,7 @@ void setup() {
     else numBands = 16;
     barWidth = M_WIDTH / numBands;
 
-    preferences.begin(ESP_PREFS, false); //The false argument means that we’ll use it in read/write mode
+    preferences.begin(ESP_PREFS, false); //The false argument means that weâ€™ll use it in read/write mode
     brightness = preferences.getUInt(PREFS_BRIGHTNESS, 2);
     gain = preferences.getUInt(PREFS_GAIN, 30);
     squelch = preferences.getUInt(PREFS_SQUELCH, 0);
@@ -170,7 +170,7 @@ void loop() {
 }
 
 void saveSpectrumPrefs() {
-    preferences.begin(ESP_PREFS, false); //The false argument means that we’ll use it in read/write mode
+    preferences.begin(ESP_PREFS, false); //The false argument means that weâ€™ll use it in read/write mode
     preferences.putUInt(PREFS_BRIGHTNESS, brightness);
     preferences.putUInt(PREFS_GAIN, gain);
     preferences.putUInt(PREFS_SQUELCH, squelch);
