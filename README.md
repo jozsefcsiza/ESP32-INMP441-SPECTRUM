@@ -17,8 +17,7 @@ Any android devce with bluetooth.
 
 
 # SOFTWARE
-It is a Visual Studio project and you can easily copy the necessary files to your Arduino IDE project.
-    
+
     -> Replace
     #define LED_PIN 2 in the ESP32-INMP441-SPECTRUM.ino file to your desired led pin of the matrix.
 
